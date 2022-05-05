@@ -8,13 +8,29 @@
 import SwiftUI
 
 struct EmojiView: View {
+    var rating: String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        switch rating {
+        case "Sob":
+            Text("😭")
+        case "Sigh":
+            Text("😔")
+        case "Smirk":
+            Text("😏")
+        default:
+            Text("😐")
+        }
+    }
+    
+    init(for rating: String) {
+        self.rating = rating
     }
 }
 
 struct EmojiView_Previews: PreviewProvider {
+
     static var previews: some View {
-        EmojiView()
+        EmojiView(for: "Sob")
     }
 }

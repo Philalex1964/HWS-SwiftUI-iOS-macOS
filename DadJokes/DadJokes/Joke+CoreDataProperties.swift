@@ -16,9 +16,9 @@ extension Joke {
         return NSFetchRequest<Joke>(entityName: "Joke")
     }
 
-    @NSManaged public var setup: String?
-    @NSManaged public var punchline: String?
-    @NSManaged public var rating: String?
+    @NSManaged public var setup: String
+    @NSManaged public var punchline: String
+    @NSManaged public var rating: String
 
 }
 
