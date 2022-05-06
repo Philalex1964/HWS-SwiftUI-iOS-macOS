@@ -9,17 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, world!")
-                .padding()
-                .iOS { $0.padding(10) }
+        NavigationView {
+            Text("List")
             
-            TextField("Example placeholder", text: .constant("Hello"))
-                .textFieldStyle(.roundedBorder)
-            
-            Slider(value: .constant(0.5))
+            Text("Main")
         }
-        .padding()
         
     }
 }
