@@ -7,24 +7,23 @@
 
 import SwiftUI
 
+struct PrimaryLabel: ViewModifier {
+    func body(content: Content) -> some View {
+        content
+            .padding()
+            .background(Color.black)
+            .foregroundColor(.white)
+            .font(.largeTitle)
+            .cornerRadius(10)
+    }
+}
+
 struct ContentView: View {
     let users = ["Paul Hudson", "Taylor Swift"]
 
     var body: some View {
-        NavigationView {
-            List(users, id: \.self) { user in
-                NavigationLink(destination: Text("Detail View")) {
-                    ExtractedView() // extracted with Cmd-click
-
-                    VStack(alignment: .leading) {
-                        Text(user)
-                            .font(.headline)
-                        Text("Occupation: Programmer")
-                    }
-                }
-            }
-            .navigationTitle("Users")
-        }
+        Text("Hello World!")
+            .modifier(PrimaryLabel())
     }
 }
 
