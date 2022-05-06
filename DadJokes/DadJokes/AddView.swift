@@ -46,7 +46,7 @@ struct AddView: View {
                 }
                 
             }
-            .navigationTitle("New Joke")
+            .navigationTitle("New Joke")            
         }
     }
 }
