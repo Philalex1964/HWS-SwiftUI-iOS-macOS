@@ -11,6 +11,8 @@
 		3AAD20C9282A4FF100475E2F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAD20C8282A4FF100475E2F /* ContentView.swift */; };
 		3AAD20CB282A4FF100475E2F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD20CA282A4FF100475E2F /* Assets.xcassets */; };
 		3AAD20CE282A4FF100475E2F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD20CD282A4FF100475E2F /* Preview Assets.xcassets */; };
+		3AAD20D7282A50BB00475E2F /* hello_world.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD20D5282A50BB00475E2F /* hello_world.sh */; };
+		3AAD20D8282A50BB00475E2F /* test.sh in Resources */ = {isa = PBXBuildFile; fileRef = 3AAD20D6282A50BB00475E2F /* test.sh */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,10 @@
 		3AAD20C8282A4FF100475E2F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AAD20CA282A4FF100475E2F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3AAD20CD282A4FF100475E2F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3AAD20D5282A50BB00475E2F /* hello_world.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = hello_world.sh; sourceTree = "<group>"; };
+		3AAD20D6282A50BB00475E2F /* test.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = test.sh; sourceTree = "<group>"; };
+		3AAD20D9282A849B00475E2F /* appleScript.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = appleScript.sh; sourceTree = "<group>"; };
+		3AAD20DA282A943700475E2F /* printmyvar.sh */ = {isa = PBXFileReference; lastKnownFileType = text.script.sh; path = printmyvar.sh; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 		3AAD20C5282A4FF100475E2F /* ShellScripts */ = {
 			isa = PBXGroup;
 			children = (
+				3AAD20D4282A504A00475E2F /* Scripts */,
 				3AAD20C6282A4FF100475E2F /* ShellScriptsApp.swift */,
 				3AAD20C8282A4FF100475E2F /* ContentView.swift */,
 				3AAD20CA282A4FF100475E2F /* Assets.xcassets */,
@@ -65,6 +72,17 @@
 				3AAD20CD282A4FF100475E2F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3AAD20D4282A504A00475E2F /* Scripts */ = {
+			isa = PBXGroup;
+			children = (
+				3AAD20D5282A50BB00475E2F /* hello_world.sh */,
+				3AAD20D6282A50BB00475E2F /* test.sh */,
+				3AAD20DA282A943700475E2F /* printmyvar.sh */,
+				3AAD20D9282A849B00475E2F /* appleScript.sh */,
+			);
+			path = Scripts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +143,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AAD20D8282A50BB00475E2F /* test.sh in Resources */,
+				3AAD20D7282A50BB00475E2F /* hello_world.sh in Resources */,
 				3AAD20CE282A4FF100475E2F /* Preview Assets.xcassets in Resources */,
 				3AAD20CB282A4FF100475E2F /* Assets.xcassets in Resources */,
 			);
