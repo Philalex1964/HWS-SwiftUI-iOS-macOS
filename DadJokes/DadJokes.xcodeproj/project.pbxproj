@@ -1,0 +1,389 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A50D1482823F31D0020069F /* DadJokesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50D1472823F31D0020069F /* DadJokesApp.swift */; };
+		3A50D14A2823F31D0020069F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50D1492823F31D0020069F /* ContentView.swift */; };
+		3A50D14C2823F31D0020069F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A50D14B2823F31D0020069F /* Assets.xcassets */; };
+		3A50D14F2823F31D0020069F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A50D14E2823F31D0020069F /* Preview Assets.xcassets */; };
+		3A50D1512823F31D0020069F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50D1502823F31D0020069F /* Persistence.swift */; };
+		3A50D1542823F31D0020069F /* DadJokes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3A50D1522823F31D0020069F /* DadJokes.xcdatamodeld */; };
+		3A50D15B2823FA080020069F /* EmojiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50D15A2823FA080020069F /* EmojiView.swift */; };
+		3A50D15E282403A50020069F /* Joke+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50D15C282403A50020069F /* Joke+CoreDataClass.swift */; };
+		3A50D15F282403A50020069F /* Joke+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50D15D282403A50020069F /* Joke+CoreDataProperties.swift */; };
+		3A50D16128240BF70020069F /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A50D16028240BF70020069F /* AddView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A50D1442823F31D0020069F /* DadJokes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DadJokes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A50D1472823F31D0020069F /* DadJokesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadJokesApp.swift; sourceTree = "<group>"; };
+		3A50D1492823F31D0020069F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3A50D14B2823F31D0020069F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3A50D14E2823F31D0020069F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3A50D1502823F31D0020069F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3A50D1532823F31D0020069F /* DadJokes.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DadJokes.xcdatamodel; sourceTree = "<group>"; };
+		3A50D15A2823FA080020069F /* EmojiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiView.swift; sourceTree = "<group>"; };
+		3A50D15C282403A50020069F /* Joke+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataClass.swift"; sourceTree = "<group>"; };
+		3A50D15D282403A50020069F /* Joke+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Joke+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3A50D16028240BF70020069F /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		3A70C1012825385E0017C108 /* DadJokes.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DadJokes.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A50D1412823F31C0020069F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A50D13B2823F31C0020069F = {
+			isa = PBXGroup;
+			children = (
+				3A50D1462823F31D0020069F /* DadJokes */,
+				3A50D1452823F31D0020069F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3A50D1452823F31D0020069F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A50D1442823F31D0020069F /* DadJokes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A50D1462823F31D0020069F /* DadJokes */ = {
+			isa = PBXGroup;
+			children = (
+				3A70C1012825385E0017C108 /* DadJokes.entitlements */,
+				3A50D15C282403A50020069F /* Joke+CoreDataClass.swift */,
+				3A50D15D282403A50020069F /* Joke+CoreDataProperties.swift */,
+				3A50D1472823F31D0020069F /* DadJokesApp.swift */,
+				3A50D1492823F31D0020069F /* ContentView.swift */,
+				3A50D16028240BF70020069F /* AddView.swift */,
+				3A50D15A2823FA080020069F /* EmojiView.swift */,
+				3A50D14B2823F31D0020069F /* Assets.xcassets */,
+				3A50D1502823F31D0020069F /* Persistence.swift */,
+				3A50D1522823F31D0020069F /* DadJokes.xcdatamodeld */,
+				3A50D14D2823F31D0020069F /* Preview Content */,
+			);
+			path = DadJokes;
+			sourceTree = "<group>";
+		};
+		3A50D14D2823F31D0020069F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3A50D14E2823F31D0020069F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3A50D1432823F31C0020069F /* DadJokes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A50D1572823F31D0020069F /* Build configuration list for PBXNativeTarget "DadJokes" */;
+			buildPhases = (
+				3A50D1402823F31C0020069F /* Sources */,
+				3A50D1412823F31C0020069F /* Frameworks */,
+				3A50D1422823F31C0020069F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DadJokes;
+			productName = DadJokes;
+			productReference = 3A50D1442823F31D0020069F /* DadJokes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3A50D13C2823F31C0020069F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					3A50D1432823F31C0020069F = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 3A50D13F2823F31C0020069F /* Build configuration list for PBXProject "DadJokes" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3A50D13B2823F31C0020069F;
+			productRefGroup = 3A50D1452823F31D0020069F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3A50D1432823F31C0020069F /* DadJokes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3A50D1422823F31C0020069F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A50D14F2823F31D0020069F /* Preview Assets.xcassets in Resources */,
+				3A50D14C2823F31D0020069F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3A50D1402823F31C0020069F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A50D15E282403A50020069F /* Joke+CoreDataClass.swift in Sources */,
+				3A50D1512823F31D0020069F /* Persistence.swift in Sources */,
+				3A50D14A2823F31D0020069F /* ContentView.swift in Sources */,
+				3A50D1542823F31D0020069F /* DadJokes.xcdatamodeld in Sources */,
+				3A50D16128240BF70020069F /* AddView.swift in Sources */,
+				3A50D1482823F31D0020069F /* DadJokesApp.swift in Sources */,
+				3A50D15B2823FA080020069F /* EmojiView.swift in Sources */,
+				3A50D15F282403A50020069F /* Joke+CoreDataProperties.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3A50D1552823F31D0020069F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3A50D1562823F31D0020069F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3A50D1582823F31D0020069F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DadJokes/DadJokes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DadJokes/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GR4L8J4R6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexfilippov.DadJokes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3A50D1592823F31D0020069F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DadJokes/DadJokes.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DadJokes/Preview Content\"";
+				DEVELOPMENT_TEAM = 8GR4L8J4R6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.alexfilippov.DadJokes;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3A50D13F2823F31C0020069F /* Build configuration list for PBXProject "DadJokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A50D1552823F31D0020069F /* Debug */,
+				3A50D1562823F31D0020069F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A50D1572823F31D0020069F /* Build configuration list for PBXNativeTarget "DadJokes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3A50D1582823F31D0020069F /* Debug */,
+				3A50D1592823F31D0020069F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3A50D1522823F31D0020069F /* DadJokes.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3A50D1532823F31D0020069F /* DadJokes.xcdatamodel */,
+			);
+			currentVersion = 3A50D1532823F31D0020069F /* DadJokes.xcdatamodel */;
+			path = DadJokes.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3A50D13C2823F31C0020069F /* Project object */;
+}
